@@ -1,0 +1,29 @@
+.avater{
+width: 30px;
+background-color: #617f77;
+border: none;
+}
+
+.searchbox{
+    border-radius: 30px;
+    background: none;
+    height: 30px;
+    border: none;
+    background-color: #84aca15d;
+    font-size: 13px;
+}
+
+.bell{
+    width: 30pxc;
+}
+.buttonround{
+
+
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #617f77;
+    color: white;
+
+}

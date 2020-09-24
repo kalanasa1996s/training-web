@@ -1,13 +1,23 @@
 import React from 'react';
+// import background from '../public/background.jpg';
+// import '../public/background.jpg'
+import background from '../src/Zoom.png';
 
 import './App.css';
+import DiaryCard from './DiaryCard/DiaryCard';
 
 function App() {
   return (
-    <div className="App">
+    
+    <div className="App" style={{ backgroundImage:`url(${background})` }}>
+      
+      
       <header className="App-header">
-        <h1>Hello Demo</h1>
+      <DiaryCard/>
       </header>
+
+    
+
     </div>
   );
 }
